@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB2F6C8517F045D7000C1F2E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB2F6C8417F045D7000C1F2E /* UIKit.framework */; };
+		BB2F6C8717F045D7000C1F2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB2F6C8617F045D7000C1F2E /* Foundation.framework */; };
+		BB2F6C8917F045D7000C1F2E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB2F6C8817F045D7000C1F2E /* CoreGraphics.framework */; };
+		BB2F6C8F17F045D7000C1F2E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BB2F6C8D17F045D7000C1F2E /* InfoPlist.strings */; };
+		BB2F6C9117F045D7000C1F2E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2F6C9017F045D7000C1F2E /* main.m */; };
+		BB2F6C9517F045D7000C1F2E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2F6C9417F045D7000C1F2E /* AppDelegate.m */; };
+		BB2F6C9717F045D7000C1F2E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BB2F6C9617F045D7000C1F2E /* Default.png */; };
+		BB2F6C9917F045D7000C1F2E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB2F6C9817F045D7000C1F2E /* Default@2x.png */; };
+		BB2F6C9B17F045D7000C1F2E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB2F6C9A17F045D7000C1F2E /* Default-568h@2x.png */; };
+		BB2F6C9E17F045D7000C1F2E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2F6C9D17F045D7000C1F2E /* ViewController.m */; };
+		BB2F6CA117F045D7000C1F2E /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB2F6C9F17F045D7000C1F2E /* ViewController_iPhone.xib */; };
+		BB2F6CA417F045D7000C1F2E /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB2F6CA217F045D7000C1F2E /* ViewController_iPad.xib */; };
+		BB2F6CAB17F047A9000C1F2E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB2F6CAA17F047A9000C1F2E /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BB2F6C8117F045D7000C1F2E /* external247exam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = external247exam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB2F6C8417F045D7000C1F2E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BB2F6C8617F045D7000C1F2E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BB2F6C8817F045D7000C1F2E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BB2F6C8C17F045D7000C1F2E /* external247exam-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "external247exam-Info.plist"; sourceTree = "<group>"; };
+		BB2F6C8E17F045D7000C1F2E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BB2F6C9017F045D7000C1F2E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB2F6C9217F045D7000C1F2E /* external247exam-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "external247exam-Prefix.pch"; sourceTree = "<group>"; };
+		BB2F6C9317F045D7000C1F2E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BB2F6C9417F045D7000C1F2E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BB2F6C9617F045D7000C1F2E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BB2F6C9817F045D7000C1F2E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		BB2F6C9A17F045D7000C1F2E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BB2F6C9C17F045D7000C1F2E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BB2F6C9D17F045D7000C1F2E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BB2F6CA017F045D7000C1F2E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		BB2F6CA317F045D7000C1F2E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		BB2F6CAA17F047A9000C1F2E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB2F6C7E17F045D7000C1F2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB2F6CAB17F047A9000C1F2E /* MapKit.framework in Frameworks */,
+				BB2F6C8517F045D7000C1F2E /* UIKit.framework in Frameworks */,
+				BB2F6C8717F045D7000C1F2E /* Foundation.framework in Frameworks */,
+				BB2F6C8917F045D7000C1F2E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB2F6C7817F045D7000C1F2E = {
+			isa = PBXGroup;
+			children = (
+				BB2F6C8A17F045D7000C1F2E /* external247exam */,
+				BB2F6C8317F045D7000C1F2E /* Frameworks */,
+				BB2F6C8217F045D7000C1F2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB2F6C8217F045D7000C1F2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB2F6C8117F045D7000C1F2E /* external247exam.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB2F6C8317F045D7000C1F2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB2F6CAA17F047A9000C1F2E /* MapKit.framework */,
+				BB2F6C8417F045D7000C1F2E /* UIKit.framework */,
+				BB2F6C8617F045D7000C1F2E /* Foundation.framework */,
+				BB2F6C8817F045D7000C1F2E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB2F6C8A17F045D7000C1F2E /* external247exam */ = {
+			isa = PBXGroup;
+			children = (
+				BB2F6C9317F045D7000C1F2E /* AppDelegate.h */,
+				BB2F6C9417F045D7000C1F2E /* AppDelegate.m */,
+				BB2F6C9C17F045D7000C1F2E /* ViewController.h */,
+				BB2F6C9D17F045D7000C1F2E /* ViewController.m */,
+				BB2F6C9F17F045D7000C1F2E /* ViewController_iPhone.xib */,
+				BB2F6CA217F045D7000C1F2E /* ViewController_iPad.xib */,
+				BB2F6C8B17F045D7000C1F2E /* Supporting Files */,
+			);
+			path = external247exam;
+			sourceTree = "<group>";
+		};
+		BB2F6C8B17F045D7000C1F2E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB2F6C8C17F045D7000C1F2E /* external247exam-Info.plist */,
+				BB2F6C8D17F045D7000C1F2E /* InfoPlist.strings */,
+				BB2F6C9017F045D7000C1F2E /* main.m */,
+				BB2F6C9217F045D7000C1F2E /* external247exam-Prefix.pch */,
+				BB2F6C9617F045D7000C1F2E /* Default.png */,
+				BB2F6C9817F045D7000C1F2E /* Default@2x.png */,
+				BB2F6C9A17F045D7000C1F2E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB2F6C8017F045D7000C1F2E /* external247exam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB2F6CA717F045D7000C1F2E /* Build configuration list for PBXNativeTarget "external247exam" */;
+			buildPhases = (
+				BB2F6C7D17F045D7000C1F2E /* Sources */,
+				BB2F6C7E17F045D7000C1F2E /* Frameworks */,
+				BB2F6C7F17F045D7000C1F2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = external247exam;
+			productName = external247exam;
+			productReference = BB2F6C8117F045D7000C1F2E /* external247exam.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB2F6C7917F045D7000C1F2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = BB2F6C7C17F045D7000C1F2E /* Build configuration list for PBXProject "external247exam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BB2F6C7817F045D7000C1F2E;
+			productRefGroup = BB2F6C8217F045D7000C1F2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB2F6C8017F045D7000C1F2E /* external247exam */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB2F6C7F17F045D7000C1F2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB2F6C8F17F045D7000C1F2E /* InfoPlist.strings in Resources */,
+				BB2F6C9717F045D7000C1F2E /* Default.png in Resources */,
+				BB2F6C9917F045D7000C1F2E /* Default@2x.png in Resources */,
+				BB2F6C9B17F045D7000C1F2E /* Default-568h@2x.png in Resources */,
+				BB2F6CA117F045D7000C1F2E /* ViewController_iPhone.xib in Resources */,
+				BB2F6CA417F045D7000C1F2E /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB2F6C7D17F045D7000C1F2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB2F6C9117F045D7000C1F2E /* main.m in Sources */,
+				BB2F6C9517F045D7000C1F2E /* AppDelegate.m in Sources */,
+				BB2F6C9E17F045D7000C1F2E /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BB2F6C8D17F045D7000C1F2E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB2F6C8E17F045D7000C1F2E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BB2F6C9F17F045D7000C1F2E /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB2F6CA017F045D7000C1F2E /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		BB2F6CA217F045D7000C1F2E /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB2F6CA317F045D7000C1F2E /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB2F6CA517F045D7000C1F2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB2F6CA617F045D7000C1F2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB2F6CA817F045D7000C1F2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "external247exam/external247exam-Prefix.pch";
+				INFOPLIST_FILE = "external247exam/external247exam-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BB2F6CA917F045D7000C1F2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "external247exam/external247exam-Prefix.pch";
+				INFOPLIST_FILE = "external247exam/external247exam-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB2F6C7C17F045D7000C1F2E /* Build configuration list for PBXProject "external247exam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB2F6CA517F045D7000C1F2E /* Debug */,
+				BB2F6CA617F045D7000C1F2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB2F6CA717F045D7000C1F2E /* Build configuration list for PBXNativeTarget "external247exam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB2F6CA817F045D7000C1F2E /* Debug */,
+				BB2F6CA917F045D7000C1F2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB2F6C7917F045D7000C1F2E /* Project object */;
+}
