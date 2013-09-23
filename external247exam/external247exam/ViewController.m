@@ -85,27 +85,8 @@
 {
     NSString *dataStr = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
     NSLog(@"connection didReceiveData  %@ :::: %@", dataStr, data);
-    //now bring it back to my delegate
     
-    NSDictionary *jsonObject = nil;
-    @try {
-        jsonObject=[NSJSONSerialization
-                    JSONObjectWithData:data
-                    options:NSJSONReadingMutableLeaves
-                    error:nil];
-    }
-    @catch (NSException *exception) {
-        jsonObject = nil;
-    }
-    
-    if (jsonObject != nil) //if json
-    {
-        if ([jsonObject isKindOfClass:[NSDictionary class]])
-        {
-            NSLog(@"data is %@", jsonObject);
-        }
-    }
-    else
+    //focus on just XML
     {
         NSXMLParser *parser = [[NSXMLParser alloc] initWithData:data];
         [parser setDelegate:self];
@@ -133,9 +114,6 @@
             
             if (_resultArray.count > 0)
             {
-                //handle only one for now.
-                NSDictionary *dict = [_resultArray objectAtIndex:0];
-                
                 id obj1, obj2;
                 BOOL hasZoomed = NO;
                 
